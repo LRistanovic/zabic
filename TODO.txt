@@ -1,0 +1,4 @@
+support for animations
+rendering text
+mouse event handling
+some kind of a primitive ui engine
