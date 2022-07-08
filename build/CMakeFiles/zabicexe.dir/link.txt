@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/zabicexe.dir/src/game.cpp.o CMakeFiles/zabicexe.dir/src/game_object.cpp.o CMakeFiles/zabicexe.dir/src/graphics.cpp.o CMakeFiles/zabicexe.dir/src/input.cpp.o CMakeFiles/zabicexe.dir/src/main.cpp.o -o zabicexe  /usr/lib/libSDL2-2.0.so -lSDL2_image 

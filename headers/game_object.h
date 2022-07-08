@@ -11,13 +11,13 @@ namespace Zabic {
 
         ~GameObject();
 
-        Vec2<int> position;
+        Vec2<float> position;
 
         virtual void start();
 
         virtual void update(float deltaTime);
 
-        [[nodiscard]] virtual Sprite sprite() const;
+        Sprite sprite = Sprite("", Rect(0, 0, 0, 0));
     };
 
 }

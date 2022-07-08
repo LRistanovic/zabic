@@ -1,0 +1,27 @@
+[
+{
+  "directory": "/home/chicha/Dev/c++/zabic/build",
+  "command": "/usr/bin/clang++ -I/home/chicha/Dev/c++/zabic/headers -g -std=gnu++20 -o CMakeFiles/zabicexe.dir/src/game.cpp.o -c /home/chicha/Dev/c++/zabic/src/game.cpp",
+  "file": "/home/chicha/Dev/c++/zabic/src/game.cpp"
+},
+{
+  "directory": "/home/chicha/Dev/c++/zabic/build",
+  "command": "/usr/bin/clang++ -I/home/chicha/Dev/c++/zabic/headers -g -std=gnu++20 -o CMakeFiles/zabicexe.dir/src/game_object.cpp.o -c /home/chicha/Dev/c++/zabic/src/game_object.cpp",
+  "file": "/home/chicha/Dev/c++/zabic/src/game_object.cpp"
+},
+{
+  "directory": "/home/chicha/Dev/c++/zabic/build",
+  "command": "/usr/bin/clang++ -I/home/chicha/Dev/c++/zabic/headers -g -std=gnu++20 -o CMakeFiles/zabicexe.dir/src/graphics.cpp.o -c /home/chicha/Dev/c++/zabic/src/graphics.cpp",
+  "file": "/home/chicha/Dev/c++/zabic/src/graphics.cpp"
+},
+{
+  "directory": "/home/chicha/Dev/c++/zabic/build",
+  "command": "/usr/bin/clang++ -I/home/chicha/Dev/c++/zabic/headers -g -std=gnu++20 -o CMakeFiles/zabicexe.dir/src/input.cpp.o -c /home/chicha/Dev/c++/zabic/src/input.cpp",
+  "file": "/home/chicha/Dev/c++/zabic/src/input.cpp"
+},
+{
+  "directory": "/home/chicha/Dev/c++/zabic/build",
+  "command": "/usr/bin/clang++ -I/home/chicha/Dev/c++/zabic/headers -g -std=gnu++20 -o CMakeFiles/zabicexe.dir/src/main.cpp.o -c /home/chicha/Dev/c++/zabic/src/main.cpp",
+  "file": "/home/chicha/Dev/c++/zabic/src/main.cpp"
+}
+]

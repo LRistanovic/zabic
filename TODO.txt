@@ -1,4 +1,5 @@
+logger
 support for animations
 rendering text
 mouse event handling
-some kind of a primitive ui engine
+some kind of primitive ui framework

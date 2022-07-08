@@ -1,7 +1,6 @@
 #pragma once
 
 #include <vector>
-#include <memory>
 
 #include "graphics.h"
 #include "input.h"
@@ -16,11 +15,11 @@ namespace Zabic {
 
         ~Game();
 
-        Input input;
+        static Input input;
 
-        std::unique_ptr<std::vector<GameObject *>> objects;
+        std::vector<GameObject*> objects;
 
-        void addObject(GameObject *object);
+        void addObject(GameObject& object);
 
         void run();
 
@@ -32,7 +31,6 @@ namespace Zabic {
 
     private:
         Graphics graphics;
-
     };
 
 }

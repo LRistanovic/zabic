@@ -27,27 +27,28 @@ Graphics::~Graphics() {
     SDL_Quit();
 }
 
-SDL_Surface* Graphics::loadImage(const std::string &filePath) {
-    if (spritesheets.find(filePath) == spritesheets.end()) { // hasn't found the key
-        SDL_Surface *surface = IMG_Load(filePath.c_str());
+SDL_Texture* Graphics::loadImage(const std::string &filePath) {
+    if (spriteSheets.find(filePath) == spriteSheets.end()) { // hasn't found the key
+        SDL_Surface* surface = IMG_Load(filePath.c_str());
 
         if (surface == nullptr)
             std::cout << "[ERROR] Cannot open file at location: " << filePath << std::endl;
 
-        spritesheets[filePath] = surface;
+        SDL_Texture* texture = SDL_CreateTextureFromSurface(renderer, surface);
+
+        spriteSheets[filePath] = texture;
     }
 
-    return spritesheets[filePath];
+    return spriteSheets[filePath];
 }
 
-void Graphics::renderObject(const GameObject &object) {
-    SDL_Surface *surface = loadImage(object.sprite().filePath);
-    SDL_Texture *texture = SDL_CreateTextureFromSurface(renderer, surface);
-    SDL_Rect srcRect = object.sprite().srcRect;
+void Graphics::renderObject(const GameObject* object) {
+    SDL_Texture *texture = loadImage(object->sprite.filePath);
+    SDL_Rect srcRect = object->sprite.srcRect.asSdlRect();
     SDL_Rect dstRect;
 
-    dstRect.x = object.position.x;
-    dstRect.y = object.position.y;
+    dstRect.x = object->position.x;
+    dstRect.y = object->position.y;
     dstRect.w = (int)((float)srcRect.w * Globals::SPRITE_SCALE);
     dstRect.h = (int)((float)srcRect.h * Globals::SPRITE_SCALE);
 

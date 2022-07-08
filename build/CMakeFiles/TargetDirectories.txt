@@ -1,0 +1,3 @@
+/home/chicha/Dev/c++/zabic/build/CMakeFiles/zabicexe.dir
+/home/chicha/Dev/c++/zabic/build/CMakeFiles/edit_cache.dir
+/home/chicha/Dev/c++/zabic/build/CMakeFiles/rebuild_cache.dir

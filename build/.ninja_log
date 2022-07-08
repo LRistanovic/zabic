@@ -1,0 +1,7 @@
+# ninja log v5
+2428	2571	1657311984129000994	zabicexe	f4e12367de023ead
+1	2428	1657311983982356911	CMakeFiles/zabicexe.dir/src/game.cpp.o	9d25ee8a7912e481
+1	2312	1657311983865708269	CMakeFiles/zabicexe.dir/src/main.cpp.o	5c6a354429e77d0
+1	2067	1657311983622412530	CMakeFiles/zabicexe.dir/src/graphics.cpp.o	92225d7e578023d8
+1	1941	1657311983495765433	CMakeFiles/zabicexe.dir/src/game_object.cpp.o	18b53138fd74276a
+1	1418	1657311982972512973	CMakeFiles/zabicexe.dir/src/input.cpp.o	d419b3093b7186dc
